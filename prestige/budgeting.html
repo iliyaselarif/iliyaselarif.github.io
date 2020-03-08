@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    body,h1,h2,h3,h4,h5 {font-family: "Garamond", sans-serif}
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Budgeting</title>
+    <link rel="stylesheet" href="border.css">
+</head>
+<body>
+<header>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="home.html">Home</a>
+        <a href="#">About Us</a>
+        <a href="budgeting.html">Budgeting</a>
+        <a href="#">Investing</a>
+        <a href="#">Managing Debt</a>
+        <a href="credit.html">Building Credit</a>
+        <a href="#">Further Reading</a>
+        <a href="newsletter.html">Newsletter</a>
+    </div>
+    <span class="try" onclick="openNav()">&#9776;</span>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+    <p class="surround">Road to 850</p>
+</header>
+
+<div class="main">
+    <!-- TradingView Widget BEGIN -->
+    <div class="tradingview-widget-container">
+        <div class="tradingview-widget-container__widget"></div>
+        <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">Market Data</span></a> by TradingView</div>
+        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>{
+            "colorTheme": "dark",
+                "dateRange": "12m",
+                "showChart": false,
+                "locale": "en",
+                "largeChartUrl": "",
+                "isTransparent": false,
+                "width": "400",
+                "height": "465",
+                "tabs": [
+                {
+                    "title": "Indices",
+                    "symbols": [
+                        {
+                            "s": "OANDA:SPX500USD",
+                            "d": "S&P 500"
+                        },
+                        {
+                            "s": "OANDA:NAS100USD",
+                            "d": "Nasdaq 100"
+                        },
+                        {
+                            "s": "FOREXCOM:DJI",
+                            "d": "Dow 30"
+                        },
+                        {
+                            "s": "INDEX:NKY",
+                            "d": "Nikkei 225"
+                        },
+                        {
+                            "s": "INDEX:DEU30",
+                            "d": "DAX Index"
+                        },
+                        {
+                            "s": "OANDA:UK100GBP",
+                            "d": "FTSE 100"
+                        }
+                    ],
+                    "originalTitle": "Indices"
+                },
+                {
+                    "title": "Commodities",
+                    "symbols": [
+                        {
+                            "s": "CME_MINI:ES1!",
+                            "d": "E-Mini S&P"
+                        },
+                        {
+                            "s": "CME:6E1!",
+                            "d": "Euro"
+                        },
+                        {
+                            "s": "COMEX:GC1!",
+                            "d": "Gold"
+                        },
+                        {
+                            "s": "NYMEX:CL1!",
+                            "d": "Crude Oil"
+                        },
+                        {
+                            "s": "NYMEX:NG1!",
+                            "d": "Natural Gas"
+                        },
+                        {
+                            "s": "CBOT:ZC1!",
+                            "d": "Corn"
+                        }
+                    ],
+                    "originalTitle": "Commodities"
+                },
+                {
+                    "title": "Bonds",
+                    "symbols": [
+                        {
+                            "s": "CME:GE1!",
+                            "d": "Eurodollar"
+                        },
+                        {
+                            "s": "CBOT:ZB1!",
+                            "d": "T-Bond"
+                        },
+                        {
+                            "s": "CBOT:UB1!",
+                            "d": "Ultra T-Bond"
+                        },
+                        {
+                            "s": "EUREX:FGBL1!",
+                            "d": "Euro Bund"
+                        },
+                        {
+                            "s": "EUREX:FBTP1!",
+                            "d": "Euro BTP"
+                        },
+                        {
+                            "s": "EUREX:FGBM1!",
+                            "d": "Euro BOBL"
+                        }
+                    ],
+                    "originalTitle": "Bonds"
+                },
+                {
+                    "title": "Forex",
+                    "symbols": [
+                        {
+                            "s": "FX:EURUSD"
+                        },
+                        {
+                            "s": "FX:GBPUSD"
+                        },
+                        {
+                            "s": "FX:USDJPY"
+                        },
+                        {
+                            "s": "FX:USDCHF"
+                        },
+                        {
+                            "s": "FX:AUDUSD"
+                        },
+                        {
+                            "s": "FX:USDCAD"
+                        }
+                    ],
+                    "originalTitle": "Forex"
+                }
+            ]}
+        </script>
+    </div>
+    <!-- TradingView Widget END -->
+
+    <!-- blog defines a container for fixed size centered content,
+    and is wrapped around the whole page content, except for the footer in this example -->
+    <div class="blog" style="max-width:1400px">
+        <!-- Grid -->
+        <div class="w3-row">
+            <!-- Blog entries -->
+            <div class="w3-col l8 s12">
+                <!-- Blog entry -->
+                <div class="w3-card-4 w3-margin w3-white">
+                    <div class="w3-container">
+                        <h3><b>1. Decide why you’re budgeting</b></h3>
+                        <img src="budget.jpg" alt="budget">
+                    </div>
+                    <div class="w3-container">
+                        <p>Start by articulating what’s inspiring you to create a budget. Are you overspending, in debt or looking for expenses to trim? Maybe you’re saving up for something, like a wedding or new baby.
+                            “Knowing why you are doing something can make it easier to follow through,” says DeDe Jones, a certified financial planner and managing director of Innovative Financial, LLC in Lakewood, Colorado.
+                            When budgeting with a partner, discuss the details together to ensure you’re on the same page.</p>
+                        <div class="w3-row">
+                            <div class="w3-col m8 s12">
+                                <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog entry -->
+                <div class="w3-card-4 w3-margin w3-white">
+                    <div class="w3-container">
+                        <h3><b>2. Use empowering language</b></h3>
+                    </div>
+                    <div class="blog-container">
+                        <p>The term “budget” can be off-putting.
+                            “People resist it because it comes from a place of scarcity,” Jones says. She recommends switching to language you’re more comfortable with, such as “spending plan,” to help keep you motivated.
+                            A budget — or whatever you choose to call it — shouldn’t intimidate or restrict you. It should be an opportunity to take control of your money.</p>
+                        <div class="w3-row">
+                            <div class="w3-col m8 s12">
+                                <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <!-- Blog entry -->
+                <div class="w3-card-4 w3-margin w3-white">
+                    <div class="w3-container">
+                        <h3><b>3. Select your budgeting method</b></h3>
+                        <img src="budgeting.jpg" alt="worksheet" style="width: 20%">
+                    </div>
+
+                    <div class="blog-container">
+                        <p>Just as there are many reasons to budget, there are many ways to budget. Some people check in and track expenses by hand daily. Others want to do as little work as possible and opt for an app. Read up on different budgeting methods — like the 50/30/20 budget or the cash-based envelope system — and try one that fits your lifestyle.
+                            The key to the game is just sticking with it and recognizing those first months are really tough.</p>
+                        <div class="w3-row">
+                            <div class="w3-col m8 s12">
+                                <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog entry -->
+                <div class="w3-card-4 w3-margin w3-white">
+                    <div class="w3-container">
+                        <h3><b>4. Prioritize expenses and goals</b></h3>
+                        <img src="expenses.png" alt="worksheet" style="width: 20%">
+                    </div>
+
+                    <div class="blog-container">
+                        <p>Understand the difference between needs and wants, then focus on the essentials first — those include groceries, housing and transportation costs. That doesn’t mean other expenses aren’t important, though. Your financial goals, such as paying off debt or saving for retirement, should still receive attention.
+                            The purpose of a budget, Gillette says, is to understand whether or not your money is going toward things that you’re happy with, you’re proud of and align with your values.
+                            The 50/30/20 budget is a good guideline for covering the major spending categories. It suggests using 50% of your income toward needs, 30% toward wants and 20% toward savings and debt.</p>
+                        <div class="w3-row">
+                            <div class="w3-col m8 s12">
+                                <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END BLOG ENTRIES -->
+            </div>
+        </div>
+        <!-- END GRID -->
+    </div><br>
+</div>
+
+<footer>
+    <div class="address">
+        Prestige Worldwide
+        <br>Phone: (518)-388-6270
+        <br>Email: cschair@union.edu
+    </div>
+    <div class="contact">
+        Union College
+        <br> 807 Union Street
+        <br>Schenectady, NY 12308 USA
+
+    </div>
+
+</footer>
+</body>
+</html>
