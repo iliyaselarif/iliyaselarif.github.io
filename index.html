@@ -8,27 +8,20 @@
     <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="border.css">
     <script src="accordion.js" defer></script>
-
-
-    
-    
-    
-    
 </head>
 <body>
-    
-    
+
     <header>
         
         <div id="mySidenav" class="sidenav">
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-          <a href="home.html">Home</a>
-          <a href="#">About Us</a>
+          <a href="index.html">Home</a>
+          <a href="AboutUs.html">About Us</a>
           <a href="budgeting.html">Budgeting</a>
-          <a href="#">Investing</a>
-          <a href="#">Managing Debt</a>
+          <a href="Investing.html">Investing</a>
+          <a href="debt.html">Managing Debt</a>
           <a href="credit.html">Building Credit</a>
-          <a href="#">Further Reading</a>
+          <a href="FurtherReading.html">Further Reading</a>
           <a href="newsletter.html">Newsletter</a>
 
         </div>
@@ -50,44 +43,178 @@
     
     <div class="main">
         
-        <img id="homeimg" src="homeimg.jpg" alt="Italian Trulli">
+        <img id="homeimg" src="images/homeimg.jpg" alt="Italian Trulli">
 
         
+        <div class="box">
+                        <!-- TradingView Widget BEGIN -->
+                <div class="tradingview-widget-container">
+                    <div class="tradingview-widget-container__widget"></div>
+                    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">Market Data</span></a> by TradingView</div>
+                    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>{
+                        "colorTheme": "dark",
+                            "dateRange": "12m",
+                            "showChart": false,
+                            "locale": "en",
+                            "largeChartUrl": "",
+                            "isTransparent": false,
+                            "width": "400",
+                            "height": "465",
+                            "tabs": [
+                            {
+                                "title": "Indices",
+                                "symbols": [
+                                    {
+                                        "s": "OANDA:SPX500USD",
+                                        "d": "S&P 500"
+                                    },
+                                    {
+                                        "s": "OANDA:NAS100USD",
+                                        "d": "Nasdaq 100"
+                                    },
+                                    {
+                                        "s": "FOREXCOM:DJI",
+                                        "d": "Dow 30"
+                                    },
+                                    {
+                                        "s": "INDEX:NKY",
+                                        "d": "Nikkei 225"
+                                    },
+                                    {
+                                        "s": "INDEX:DEU30",
+                                        "d": "DAX Index"
+                                    },
+                                    {
+                                        "s": "OANDA:UK100GBP",
+                                        "d": "FTSE 100"
+                                    }
+                                ],
+                                "originalTitle": "Indices"
+                            },
+                            {
+                                "title": "Commodities",
+                                "symbols": [
+                                    {
+                                        "s": "CME_MINI:ES1!",
+                                        "d": "E-Mini S&P"
+                                    },
+                                    {
+                                        "s": "CME:6E1!",
+                                        "d": "Euro"
+                                    },
+                                    {
+                                        "s": "COMEX:GC1!",
+                                        "d": "Gold"
+                                    },
+                                    {
+                                        "s": "NYMEX:CL1!",
+                                        "d": "Crude Oil"
+                                    },
+                                    {
+                                        "s": "NYMEX:NG1!",
+                                        "d": "Natural Gas"
+                                    },
+                                    {
+                                        "s": "CBOT:ZC1!",
+                                        "d": "Corn"
+                                    }
+                                ],
+                                "originalTitle": "Commodities"
+                            },
+                            {
+                                "title": "Bonds",
+                                "symbols": [
+                                    {
+                                        "s": "CME:GE1!",
+                                        "d": "Eurodollar"
+                                    },
+                                    {
+                                        "s": "CBOT:ZB1!",
+                                        "d": "T-Bond"
+                                    },
+                                    {
+                                        "s": "CBOT:UB1!",
+                                        "d": "Ultra T-Bond"
+                                    },
+                                    {
+                                        "s": "EUREX:FGBL1!",
+                                        "d": "Euro Bund"
+                                    },
+                                    {
+                                        "s": "EUREX:FBTP1!",
+                                        "d": "Euro BTP"
+                                    },
+                                    {
+                                        "s": "EUREX:FGBM1!",
+                                        "d": "Euro BOBL"
+                                    }
+                                ],
+                                "originalTitle": "Bonds"
+                            },
+                            {
+                                "title": "Forex",
+                                "symbols": [
+                                    {
+                                        "s": "FX:EURUSD"
+                                    },
+                                    {
+                                        "s": "FX:GBPUSD"
+                                    },
+                                    {
+                                        "s": "FX:USDJPY"
+                                    },
+                                    {
+                                        "s": "FX:USDCHF"
+                                    },
+                                    {
+                                        "s": "FX:AUDUSD"
+                                    },
+                                    {
+                                        "s": "FX:USDCAD"
+                                    }
+                                ],
+                                "originalTitle": "Forex"
+                            }
+                        ]}
+                    </script>
+                </div>
+                <!-- TradingView Widget END -->
         
         
         
-        <div class="content">
-                <button class="accordion"> <strong>What is financial literacy?</strong></button>
-                <div class="panel">
-                  <p id = "panel">Financial literacy is the ability to understand and effectively apply various financial skills, including personal financial management, budgeting, and investing. Financial literacy helps individuals become self-sufficient so that they can achieve financial stability.</p>
-                </div>
-                
-                <button class="accordion"><strong>Why should you learn about it?</strong></button>
-                <div class="panel">
-                    <p id="panel">
-                        Financial literacy is important because it equips people with an understanding of basic financial concepts to inform their real-world financial decisions. With this knowledge in hand, they’re better able to manage their money, make sound decisions, and maintain healthy spending and budgeting habits, which over time can lead to financial wellness.
-                    </p>
-                </div>
-                
-                <button class="accordion"><strong>Benefits of being financially literate</strong></button>
-                <div class="panel">
-                  <p id = "panel">It includes the knowledge of making appropriate decisions about personal finance, such as:   
-                </p>
-                    <ul>
-                          <li>Investing</li>
-                          <li>Insurance</li>
-                          <li>Real Estate</li>
-                          <li>Managing Debt</li>
-                          <li>Budgeting</li>
-                          <li>Retirement</li>
-                          <li>Tax Planning</li>
-                
-                    </ul>
-                    <br>
-                </div>
+                <div class="content">
+                        <button class="accordion"> <strong>What is financial literacy?</strong></button>
+                        <div class="panel">
+                          <p id = "panel">Financial literacy is the ability to understand and effectively apply various financial skills, including personal financial management, budgeting, and investing. Financial literacy helps individuals become self-sufficient so that they can achieve financial stability.</p>
+                        </div>
+
+                        <button class="accordion"><strong>Why should you learn about it?</strong></button>
+                        <div class="panel">
+                            <p id="panel">
+                                Financial literacy is important because it equips people with an understanding of basic financial concepts to inform their real-world financial decisions. With this knowledge in hand, they’re better able to manage their money, make sound decisions, and maintain healthy spending and budgeting habits, which over time can lead to financial wellness.
+                            </p>
+                        </div>
+
+                        <button class="accordion"><strong>Benefits of being financially literate</strong></button>
+                        <div class="panel">
+                          <p id = "panel">It includes the knowledge of making appropriate decisions about personal finance, such as:   
+                        </p>
+                            <ul>
+                                  <li>Investing</li>
+                                  <li>Insurance</li>
+                                  <li>Real Estate</li>
+                                  <li>Managing Debt</li>
+                                  <li>Budgeting</li>
+                                  <li>Retirement</li>
+                                  <li>Tax Planning</li>
+
+                            </ul>
+                            <br>
+                        </div>
 
 
-        </div>
+                </div>
+         </div>
 
 
 

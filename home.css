@@ -10,14 +10,13 @@
     border: none;
     outline: none;
     transition: 0.4s;
+    height: 142px;
   }
   
-  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
   .active, .accordion:hover {
     background-color: #ccc;
   }
   
-  /* Style the accordion panel. Note: hidden by default */
   .panel {
     padding: 0 18px;
     background-color: white;
@@ -28,7 +27,7 @@
   }
 
   .accordion:after {
-    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    content: '\02795'; 
     font-size: 13px;
     color: #777;
     float: right;
@@ -36,7 +35,7 @@
   }
   
   .active:after {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
+    content: "\2796";
   }
 
   .content{
@@ -73,4 +72,9 @@ ul{
     border: 0%;
     margin: 0%;
     padding: 0%
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
 }

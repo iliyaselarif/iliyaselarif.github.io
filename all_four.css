@@ -1,0 +1,33 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+.holder{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+}
+.ol-container{
+    font-size: 50px;
+    margin-left: 20%;
+    padding-top:20px;
+    padding-bottom:20px;
+    font-weight: bold;
+}
+.ul-container{
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom:5px;
+    padding-left: 100px;
+    padding-right:100px;
+
+}
+li{
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+strong{
+    font-size: 24px;
+}

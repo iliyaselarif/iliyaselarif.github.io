@@ -1,6 +1,48 @@
 <!DOCTYPE html>
-<html>
-<style>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <link rel="stylesheet" href="border.css">
+
+</head>
+<body>
+    
+    
+    <header>
+        
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="index.html">Home</a>
+          <a href="AboutUs.html">About Us</a>
+          <a href="budgeting.html">Budgeting</a>
+          <a href="Investing.html">Investing</a>
+          <a href="debt.html">Managing Debt</a>
+          <a href="credit.html">Building Credit</a>
+          <a href="FurtherReading.html">Further Reading</a>
+          <a href="newsletter.html">Newsletter</a>
+
+        </div>
+
+        <span class="try" onclick="openNav()">&#9776;</span>
+
+        <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
+         <p class="surround">Road to 850</p>
+    </header>
+    
+    
+    <div class="main">
+        <style>
     body {font-family: Arial, Helvetica, sans-serif;}
 
     form {
@@ -36,7 +78,6 @@
         opacity: 0.8;
     }
 </style>
-<body>
 
 <h2>Prestige Newsletter</h2>
 
@@ -58,6 +99,31 @@
         <input type="submit" value="Subscribe">
     </div>
 </form>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    <footer>
+        <div class="address">
+            Prestige Worldwide
+            <br>Phone: (518)-388-6270
+            <br>Email: cschair@union.edu
+        </div>
 
+
+        <div class="contact">
+             Union College
+            <br> 807 Union Street
+            <br>Schenectady, NY 12308 USA
+
+        </div>
+
+    </footer>
 </body>
 </html>
+

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+  body,h1,h2,h3,h4,h5 {font-family: "Garamond", sans-serif}
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About Us</title>
+    <link rel="stylesheet" href="border.css">
+
+</head>
+<body>
+    
+    
+    <header>
+        
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="home.html">Home</a>
+          <a href="#">About Us</a>
+          <a href="budgeting.html">Budgeting</a>
+          <a href="#">Investing</a>
+          <a href="#">Managing Debt</a>
+          <a href="credit.html">Building Credit</a>
+          <a href="#">Further Reading</a>
+          <a href="newsletter.html">Newsletter</a>
+
+        </div>
+
+        <span class="try" onclick="openNav()">&#9776;</span>
+
+        <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
+         <p class="surround">Road to 850</p>
+    </header>
+    
+    
+    <div class="main">
+      <h1>About Us</h1>
+      <p>Prestige Worldwide was founded in 2020 by a small group of computer science students
+        who saw an opportunity to change how we as a society can learn about managing
+        our money. After none of us were affected by a stock market crash, but
+        reading about how difficult it probably was, we didn't want to 
+        see anyone suffer like that. By creating this website we are working towards 
+        a more prosperous future.
+      </p>
+      <h2>Questions? Comments? Concerns?</h2>
+      <form>
+          <label for="fillin">Tell us below:</label><br>
+          <input style="height:200px; width:400px;" type="text" id="fillin" name="fillin"><br>
+          <input type="submit">
+      </form>
+    </div>
+
+    <footer>
+        <div class="address">
+            Prestige Worldwide
+            <br>Phone: (518)-388-6270
+            <br>Email: cschair@union.edu
+        </div>
+
+
+        <div class="contact">
+             Union College
+            <br> 807 Union Street
+            <br>Schenectady, NY 12308 USA
+
+        </div>
+
+    </footer>
+</body>
+</html>

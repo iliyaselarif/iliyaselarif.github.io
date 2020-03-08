@@ -38,8 +38,12 @@
 <div>
     <div class = "ol-container">
         <p>1. Decide why you’re budgeting</p>
+<<<<<<< HEAD
+        <img src = "images/expenses.png" alt = "image" class = "center">
+=======
+>>>>>>> 3d5d01db1a7853cda946e574b850755cbcc50e52
     </div>
-    <img src = "images/expenses.png" alt = "image" class = "center">
+    <img src = "images/expenses.png" alt = "image">
     <div class = "ul-container">
         <ul>
             <p>Start by articulating what’s inspiring you to create a budget. Are you overspending, in debt or looking for expenses to trim? Maybe you’re saving up for something, like a wedding or new baby.
@@ -50,7 +54,7 @@
     <div class = "ol-container">
         <p>2. Use empowering language</p>
     </div>
-    <img src = "images/budget.jpg" alt = "image" class="center">
+    <img src = "images/budget.jpg" alt = "image">
     <div class = "ul-container">
         <ul>
             <p>The term “budget” can be off-putting.
