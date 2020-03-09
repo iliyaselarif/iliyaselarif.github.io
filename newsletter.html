@@ -82,22 +82,22 @@
 
 <h2>Prestige Newsletter</h2>
 
-<form action="action_page.php" method="post">
+<form action="action_page.php" name = "forum" method="post">
     <div class="container">
         <h2>Subscribe to our Newsletter</h2>
         <p>You should subscribe to our newsletter to get free exclusive content. We will be sending weekly emails containing additional educational stuff. </p>
     </div>
 
     <div class="container" style="background-color:white">
-        <input type="text" placeholder="Name" name="name" required>
-        <input type="text" placeholder="Email address" name="mail" required>
+        <input type="text" id = "name" placeholder="Name" name="name" required>
+        <input type="text" id = "email" placeholder="Email address" name="mail" required>
         <label>
             <input type="checkbox" checked="checked" name="subscribe"> Weekly Newsletter
         </label>
     </div>
 
     <div class="container">
-        <input type="submit" value="Subscribe">
+        <input type="submit" value="Subscribe" onclick = validateForm()>
     </div>
 </form>
 
