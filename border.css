@@ -11,6 +11,7 @@ header{
     background-image: url("images/stockmarket.jpg");
     background-color: black;
     padding: 1%;
+    height: 15vh;
 }
 
 
@@ -70,23 +71,24 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: #449FE1;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
+  border-right: solid 2px black;
 }
 
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #ff0000;
+  color: white;
   display: block;
   transition: 0.3s;
 }
 
 .sidenav a:hover {
-  color: #86BF4C;
+  color: black;
 }
 
 .sidenav .closebtn {
@@ -114,3 +116,7 @@ body {
     border: 0;
     margin: 0px;
 } 
+
+.filler{
+        height: 20vh;
+    }
