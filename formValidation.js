@@ -7,12 +7,13 @@ function validateForm() {
         name.style.backgroundColor  = "red";
         return false;
     }
-    if(!emailIsValid(email)){
+    if(!validateEmail(email)){
         alert("Invalid email entered");
         email.style.backgroundColor  = "red";
         return false
     }
 }
-function emailIsValid (email) {
-    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)
+function validateEmail(email) {
+    var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(String(email).toLowerCase());
 }
