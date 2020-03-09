@@ -2,7 +2,7 @@
 <body>
 
 <?php
-$con = mysqli_connect("185.199.108.153", "root", ""); // Establishing Connection with Server
+$con = mysqli_connect("localhost", "root", ""); // Establishing Connection with Server
 session_start();
 
 if(!$con){
