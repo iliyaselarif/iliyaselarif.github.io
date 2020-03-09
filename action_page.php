@@ -2,7 +2,7 @@
 <body>
 
 <?php
-$con = mysqli_connect("localhost", "root", ""); // Establishing Connection with Server
+$con = mysqli_connect("185.199.108.153", "root", ""); // Establishing Connection with Server
 session_start();
 
 if(!$con){
@@ -17,7 +17,7 @@ if (!mysqli_query($con,$sql))
 {
     die('Error: ' . mysqli_error());
 }
-echo "1 record added";
+echo "thank you";
 mysqli_close($con)
 ?>
 </body>
